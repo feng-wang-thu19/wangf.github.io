@@ -2,8 +2,8 @@
 layout: post
 title:  "Self-supervised Pretraining for Semantic Segmentation"
 date:   2022-02-15 21:21:53 +00:00
-image: /images/thumbnail_03.png
-categories: eccv
+image: /images/thumbnail_3.png
+categories: ICONIP
 venue: "submitting to ECCV2022"
 author: "Feng Wang"
 authors: "Coming soon"
