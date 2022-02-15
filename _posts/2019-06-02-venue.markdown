@@ -2,7 +2,7 @@
 layout: default
 title:  "Boost Neural Networks by Checkpoints"
 date:   2021-12-01 22:21:59 +00:00
-id: 01
+id: neurips
 author: "Feng Wang"
 authors: "<strong>Feng Wang</strong>, Guoyizhe Wei, Qiao Liu, Jinxiang Ou, Xian Wei, Hairong Lv"
 venue: "35th Conference on Neural Information Processing Systems (NeurIPS 2021)"
