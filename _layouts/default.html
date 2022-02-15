@@ -25,7 +25,7 @@
           <tr style="padding:0px">
             <td style="padding:2.5%;width:60%;vertical-align:middle">
               <h1>
-                Feng Wang (v0.6)
+                Feng Wang (v0.7)
               </h1>
               <p>I am a 3rd-year M.S. student at <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>, where I am fortunate to be advised Prof. Hairong Lv, focusing on the research of machine learning and computer vision.
               </p>
@@ -55,7 +55,7 @@
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
-          {% for post in site.new_posts %}
+          {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat == 'research' %}
           <tr>
@@ -93,7 +93,7 @@
           {% endfor %}
           {% endfor %}
           
-          {% for post in site.new_posts %}
+          {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat != 'research' %}
           <tr>
