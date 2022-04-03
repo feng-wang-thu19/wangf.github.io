@@ -30,13 +30,13 @@
               <p>I am a 3rd-year M.S. student at <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>, where I am fortunate to be advised Prof. Hairong Lv, focusing on the research of machine learning and computer vision.
               </p>
               <p>
-                I am currently work as an intern at <a href="https://ccvl.jhu.edu/">CCVL</a>, <a href="https://www.jhu.edu/">Johns Hopkins University</a>, where I am honored to be supervised by Bloomberg Distinguished Professor <a href="https://www.cs.jhu.edu/~ayuille/">Alan L. Yuille</a>.
+                I am currently working as an intern at <a href="https://ccvl.jhu.edu/">CCVL</a>, <a href="https://www.jhu.edu/">Johns Hopkins University</a>, where I am honored to be supervised by Bloomberg Distinguished Professor <a href="https://www.cs.jhu.edu/~ayuille/">Alan L. Yuille</a>.
               </p>
               <p>
                 My research interests span in the fields of visual representation, contrastive learning, and machine learning theories. My current research concentrates on self-supervised pretraining of convolution-based and transformer-based visual representation models.
               </p>
               <p style="text-align:center">
-                <a href="mailto:wangf.thu19@gmail.com"> wangf[dot]thu19[at]gmail[dot]com</a> &nbsp;/&nbsp;
+                <a href="mailto:wangf3014@gmail.com"> wangf3014[at]gmail[dot]com</a> &nbsp;/&nbsp;
                 <a href="https://github.com/BostonCrayfish">GitHub</a>
               </p>
             </td>
@@ -55,6 +55,22 @@
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              <img src="images/thumbnail_3.png" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>CP2: Copy-Paste Contrastive Pretraining for Semantic Segmentation</h3>
+              <br>
+              <strong>Feng Wang</strong>, Huiyu Wang, Chen Wei, Alan Yuille, Wei Shen
+
+              <br>
+              <em>European Conference on Computer Vision (ECCV)</em>, 2022, under review
+              <br>
+              <p></p>
+              We propose a dense (pixel-wise) contrastive learning method called CP2, which facilitates both image- and pixel-level representation learning and therefore is more suitable for downstream dense prediction tasks such as semantic segmentation. We obtain 78.6% mIoU with a ResNet-50 and 79.5% with a ViT-S by finetuning CP2 pretrained models on PASCAL VOC 2012.
+            </td>
+          </tr>
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat == 'research' %}
@@ -136,23 +152,6 @@
           {% endif %}
           {% endfor %}
           {% endfor %}
-          
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="images/thumbnail_3.png" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>Self-supervised Pretraining for Semantic Segmentation</h3>
-              <br>
-              Coming soon.
-
-              <br>
-              <em>submitting to ECCV2022</em>, 2022
-              <br>
-              <p></p>
-              We propose a self-supervised contrastive learning method for semantic segmentation, which achieves SOTA performance on PASCAL VOC, Cityscapes, and ADE20k semantic segmentation tasks with ResNet and Vision Transformer architectures.
-            </td>
-          </tr>
 
         </table>
         <br>
