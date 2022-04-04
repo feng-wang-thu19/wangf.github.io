@@ -5,8 +5,8 @@ date:   2021-12-01 22:21:59 +00:00
 image: /images/thumbnail_01.jpg
 categories: research
 author: "Feng Wang"
-authors: "<strong>Feng Wang</strong>, Guoyizhe Wei, Qiao Liu, Jinxiang Ou, Xian Wei, Hairong Lv"
-venue: "35th Conference on Neural Information Processing Systems (NeurIPS 2021)"
+authors: "<strong>F. Wang</strong>, G. Wei, Q. Liu, J. Ou, X. Wei, H. Lv"
+venue: "35th Conference on Neural Information Processing Systems (<strong>NeurIPS 2021</strong>)"
 arxiv: https://arxiv.org/abs/2110.00959
 pdf: https://proceedings.neurips.cc/paper/2021/file/a40511cad8383e5ae8ddd8b855d135da-Paper.pdf
 ---
