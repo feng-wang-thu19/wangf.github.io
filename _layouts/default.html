@@ -62,8 +62,7 @@
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>CP2: Copy-Paste Contrastive Pretraining for Semantic Segmentation</h3>
               <br>
-              <strong>Feng Wang</strong>, Huiyu Wang, Chen Wei, Alan Yuille, Wei Shen
-
+              <strong>F. Wang</strong>, H. Wang, C. Wei, A. Yuille, W. Shen
               <br>
               <em>European Conference on Computer Vision (ECCV)</em>, 2022, under review
               <br>
@@ -73,6 +72,22 @@
               We propose a dense (pixel-wise) contrastive learning method called CP2, which facilitates both image- and pixel-level representation learning and therefore is more suitable for downstream dense prediction tasks such as semantic segmentation. We obtain 78.6% mIoU with a ResNet-50 and 79.5% with a ViT-S by finetuning CP2 pretrained models on PASCAL VOC 2012.
             </td>
           </tr>
+          
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              <img src="images/thumbnail_4.png" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>BiST: BERT Pretraining of Vision Transformers with Siamese Tokenizer</h3>
+              <br>
+              <strong>F. Wang</strong>, J. Chen, T. Zhang
+              <br>
+              Preparing, will be submitted to NeurIPS 2022!           
+              <p></p>
+              We propose BiST, a novel BERT-like pretraining method for vision transformers, in which we divide each image into two complementary subsets by patch-wise masks and train the transformer to predict the representation of one subset by another subset. BiST achieves very competitive downstream performance in classification, detection, and segmentation tasks.
+            </td>
+          </tr>
+          
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat == 'research' %}
