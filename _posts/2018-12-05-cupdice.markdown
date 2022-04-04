@@ -4,7 +4,7 @@ title:  "Gradient Boosting Forest: a Two-Stage Ensemble Method Enabling Federate
 date:   2021-11-01 21:21:53 +00:00
 image: /images/thumbnail_02.png
 categories: ICONIP
-venue: "International Conference on Neural Information Processing (ICONIP2021)"
+venue: "International Conference on Neural Information Processing (<strong>ICONIP 2021</strong>)"
 author: "Feng Wang"
 authors: "<strong>F. Wang</strong>, J. Ou, H. Lv"
 pdf: https://link.springer.com/chapter/10.1007/978-3-030-92270-2_7
